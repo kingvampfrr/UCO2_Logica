@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Página-1" id="jGRkS770OeohcJg9rtL6">
+    <mxGraphModel dx="2241" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-6" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="inicio" vertex="1">
+          <mxGeometry height="80" width="106" x="364" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="escreva(&quot;Digite o salario do funcionario: &quot;)" vertex="1">
+          <mxGeometry height="70" width="330" x="252" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="leia(salario)" vertex="1">
+          <mxGeometry height="60" width="140" x="359" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-10" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KWJxyMk1_8JaYtG0xasM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="escreva(&quot;Digite a quantidade de dias de ferias: &quot;)" vertex="1">
+          <mxGeometry height="70" width="380" x="227" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-13" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="leia(dias_ferias)" vertex="1">
+          <mxGeometry height="60" width="170" x="332" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-7" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWJxyMk1_8JaYtG0xasM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-9" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWJxyMk1_8JaYtG0xasM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-17" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-11" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="valor_dia = salario / 30" vertex="1">
+          <mxGeometry height="70" width="211" x="311.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-24" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="se dias_ferias == 20?" vertex="1">
+          <mxGeometry height="160" width="200" x="317" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-27" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-18" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="valor_ferias = valor_dia * 20" vertex="1">
+          <mxGeometry height="70" width="247" x="-42" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-20" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="valor_ferias = valor_ferias + adicional" vertex="1">
+          <mxGeometry height="70" width="330" x="-83.5" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-28" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-21" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="valor_ferias = valor_dia * 30" vertex="1">
+          <mxGeometry height="70" width="300" x="580" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-22" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="valor_ferias = valor_ferias + adicional" vertex="1">
+          <mxGeometry height="70" width="310" x="575" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-32" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KWJxyMk1_8JaYtG0xasM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-23" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="escreva(&quot;Valor das ferias: R$ &quot;, valor_ferias)" vertex="1">
+          <mxGeometry height="70" width="345" x="230" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-25" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.607;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWJxyMk1_8JaYtG0xasM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-29" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWJxyMk1_8JaYtG0xasM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-30" edge="1" parent="1" source="KWJxyMk1_8JaYtG0xasM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWJxyMk1_8JaYtG0xasM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWJxyMk1_8JaYtG0xasM-31" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="fim" vertex="1">
+          <mxGeometry height="80" width="130" x="337.5" y="1510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="16Q63-SyunMG001WrO90" name="Página-2">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
