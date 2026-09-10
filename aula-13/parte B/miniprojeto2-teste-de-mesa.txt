@@ -1,0 +1,26 @@
+TESTE DE MESA — MINI-PROJETO 2
+
+CENÁRIO 1 — Viagem de 300 km
+
+| Passo | distancia | consumo | preco | litros | custo | saída |
+|---|---:|---:|---:|---:|---:|---|
+| Leia distancia | 300 | ? | ? | ? | ? | ? |
+| Leia consumo | 300 | 10 | ? | ? | ? | ? |
+| Leia preco | 300 | 10 | 6 | ? | ? | ? |
+| litros = distancia / consumo | 300 | 10 | 6 | 30 | ? | ? |
+| custo = litros * preco | 300 | 10 | 6 | 30 | 180 | ? |
+| Escreva litros | 300 | 10 | 6 | 30 | 180 | 30 litros |
+| Escreva custo | 300 | 10 | 6 | 30 | 180 | R$ 180 |
+
+
+CENÁRIO 2 — Viagem de 150 km
+
+| Passo | distancia | consumo | preco | litros | custo | saída |
+|---|---:|---:|---:|---:|---:|---|
+| Leia distancia | 150 | ? | ? | ? | ? | ? |
+| Leia consumo | 150 | 12 | ? | ? | ? | ? |
+| Leia preco | 150 | 12 | 6 | ? | ? | ? |
+| litros = distancia / consumo | 150 | 12 | 6 | 12,5 | ? | ? |
+| custo = litros * preco | 150 | 12 | 6 | 12,5 | 75 | ? |
+| Escreva litros | 150 | 12 | 6 | 12,5 | 75 | 12,5 litros |
+| Escreva custo | 150 | 12 | 6 | 12,5 | 75 | R$ 75 |
